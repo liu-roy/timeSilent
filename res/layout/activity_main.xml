@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnAddAlarm1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加静音开始时间" />
+
+    <TextView
+        android:id="@+id/tvAlarmRecord1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" />
+   
+     <Button
+         android:id="@+id/btnAddAlarm2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="添加静音停止时间" />
+       <TextView
+        android:id="@+id/tvAlarmRecord2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" />
+     
+
+</LinearLayout>
